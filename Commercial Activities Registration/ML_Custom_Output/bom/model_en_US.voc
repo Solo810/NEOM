@@ -1,0 +1,15 @@
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output#concept.label = ML_Custom_Output
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.ML_Custom_Output(java.lang.String,double,java.util.List)#phrase.navigation = a new {ML_Custom_Output} where {0, error} {1, prediction} {2, probability}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.addTo_probabilities(double)#phrase.action = add {0} to the probabilities of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.clear_probabilities()#phrase.action = clear the probabilities of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.error#phrase.action = set the error of {this} to {error}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.error#phrase.navigation = {error} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.prediction#phrase.action = set the prediction of {this} to {prediction}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.prediction#phrase.addition_setter = add {prediction} to the prediction of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.prediction#phrase.navigation = {prediction} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.prediction#phrase.subtraction_setter = subtract {prediction} from the prediction of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.probabilities#phrase.action = set the probabilities of {this} to {probability}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.probabilities#phrase.navigation = {probability} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output.removeFrom_probabilities(double)#phrase.action = remove {0} from the probabilities of {this}

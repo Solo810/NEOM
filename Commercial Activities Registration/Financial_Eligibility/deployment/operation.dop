@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Financial_Eligibility">
+  <name>Financial_Eligibility</name>
+  <uuid>ab0f0094-dba6-4e96-be4e-d3a4658b1f86</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#21acba85-7847-4aae-b8ed-44b22e638385"/>
+  <targetRuleProject href="../../Financial_Eligibility#ff6fb466-159d-490d-9f83-d51b84b3e71c"/>
+  <tags key="ProviderType">
+    <value><![CDATA[OPS]]></value>
+  </tags>
+  <tags key="ProviderId">
+    <value><![CDATA[disconnectedProvider]]></value>
+  </tags>
+  <tags key="operationType">
+    <value><![CDATA[Predictive]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

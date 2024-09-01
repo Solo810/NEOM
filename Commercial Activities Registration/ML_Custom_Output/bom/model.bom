@@ -1,0 +1,44 @@
+
+package ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output;
+
+
+class ML_Custom_Output
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "ML_Custom_Output"
+        #de.generated
+{
+    string error
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "error"
+                #update;
+    double prediction
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "prediction"
+                #update;
+    java.util.List probabilities domain 0,* class double
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "probabilities"
+                #update;
+    ML_Custom_Output(string error, 
+        double prediction, 
+        java.util.List probabilities domain 0,* class double)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    ML_Custom_Output()
+                #dataio.default;
+    void addTo_probabilities(double probabilities)
+                property collectionAttribute "probabilities"
+                #update;
+    void clear_probabilities()
+                property collectionAttribute "probabilities"
+                #update;
+    void removeFrom_probabilities(double probabilities)
+                property collectionAttribute "probabilities"
+                #update;
+    void set_probabilities(java.util.Collection probabilities domain 0,* class double)
+                property collectionAttribute "probabilities"
+                #update;
+}
+

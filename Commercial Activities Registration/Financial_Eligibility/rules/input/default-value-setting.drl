@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>default-value-setting</name>
+  <uuid>11fc6ddf-3205-478e-91b2-3bf20dcaa79b</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[set InvestorData to a new InvestorData where
+		the address is "NEOM_Block2_233" , 
+		the annualIncome is 1200000 , 
+		the city is "NEOM" , 
+		the email is "inv.neom@mycompany.com" , 
+		the name is "TechnoLines LLC" , 
+		the id is "N-5114207" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

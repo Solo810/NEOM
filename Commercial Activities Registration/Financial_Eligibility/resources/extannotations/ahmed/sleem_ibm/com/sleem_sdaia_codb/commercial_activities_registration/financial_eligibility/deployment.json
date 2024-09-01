@@ -1,0 +1,31 @@
+{
+  "metadata" : {
+    "id" : "c5629853-425a-40c5-9f75-0bd5e6276f0f",
+    "name" : "offer_affinity_FINANCIALPLAN_model_deployment",
+    "modified_at" : "2024-05-23T12:22:13.681Z",
+    "created_at" : "2024-05-23T12:22:13.681Z",
+    "owner" : "IBMid-550001MGXD",
+    "space_id" : "dd418181-41ef-4e01-a466-b9c1c6b9c95c",
+    "tags" : [ "offer_affinity_FINANCIALPLAN_deployment_tag" ]
+  },
+  "entity" : {
+    "name" : "offer_affinity_FINANCIALPLAN_model_deployment",
+    "space_id" : "dd418181-41ef-4e01-a466-b9c1c6b9c95c",
+    "custom" : { },
+    "online" : { },
+    "status" : {
+      "state" : "ready",
+      "online_url" : {
+        "url" : "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/c5629853-425a-40c5-9f75-0bd5e6276f0f/predictions"
+      },
+      "serving_urls" : [ "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/c5629853-425a-40c5-9f75-0bd5e6276f0f/predictions", "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/offeraffinityfinancialplanmodex32n6q/predictions" ]
+    },
+    "asset" : {
+      "id" : "a0c382f4-75d2-48eb-95ab-1d8995fae767"
+    }
+  },
+  "name" : "offer_affinity_FINANCIALPLAN_model_deployment",
+  "status" : "ready",
+  "deployedAt" : "2024-05-23T12:22:13.681Z",
+  "url" : "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/c5629853-425a-40c5-9f75-0bd5e6276f0f/predictions"
+}

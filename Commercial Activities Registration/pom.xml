@@ -70,8 +70,11 @@
         <module>Commercial_Reg_Fees</module>
         <module>Company_Grade</module>
         <module>Decision_result</module>
+        <module>Financial_Eligibility</module>
         <module>Invest_License_Fees</module>
         <module>Invest_License_Renewal</module>
+        <module>InvestorData</module>
+        <module>ML_Custom_Output</module>
         <module>Main_Service_Eligibility</module>
         <module>Operation_License_Fees</module>
     </modules>

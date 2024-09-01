@@ -1,0 +1,19 @@
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData#concept.documentation = 
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData#concept.label = InvestorData
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.InvestorData(java.lang.String,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String)#phrase.navigation = a new {InvestorData} where {0, address} {1, annualIncome} {2, city} {3, email} {4, name} {5, id}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.address#phrase.action = set the address of {this} to {address}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.address#phrase.navigation = {address} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.annualIncome#phrase.action = set the annualIncome of {this} to {annualIncome}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.annualIncome#phrase.addition_setter = add {annualIncome} to the annualIncome of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.annualIncome#phrase.navigation = {annualIncome} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.annualIncome#phrase.subtraction_setter = subtract {annualIncome} from the annualIncome of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.city#phrase.action = set the city of {this} to {city}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.city#phrase.navigation = {city} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.email#phrase.action = set the email of {this} to {email}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.email#phrase.navigation = {email} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.id#phrase.action = set the id of {this} to {id}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.id#phrase.navigation = {id} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.name#phrase.action = set the name of {this} to {name}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData.name#phrase.navigation = {name} of {this}

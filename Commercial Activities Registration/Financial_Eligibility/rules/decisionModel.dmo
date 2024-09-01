@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>Financial_Eligibility</name>
+  <uuid>21acba85-7847-4aae-b8ed-44b22e638385</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="Decisions" name="financial_Eligibility" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="input" name="InvestorData">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData" collection="false" name="InvestorData"/>
+                <rule defaultRule="true" href="input/default-value-setting.drl" kind="BusinessRule" name="default-value-setting"/>
+            </initialization>
+        </extensionElements>
+        <variable id="input_ii" name="InvestorData" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData"/>
+    </inputData>
+    <decision id="input-mapping" name="Input mapping">
+        <description>ML model input</description>
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData" collection="false" name="InvestorData"/>
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.financial_eligibility.Input" collection="false" name="Input mapping"/>
+                <rule defaultRule="false" href="input-mapping/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="input_mapping_ii" name="Input mapping" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.financial_eligibility.Input"/>
+        <informationRequirement>
+            <requiredInput href="#input"/>
+        </informationRequirement>
+    </decision>
+    <decision id="output-mapping" name="Output mapping">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.financial_eligibility.Output" collection="false" name="ML model invocation"/>
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output" collection="false" name="Output mapping"/>
+                <rule defaultRule="false" href="output-mapping/output-default-setting.drl" kind="BusinessRule" name="output-default-setting"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="output_mapping_ii" name="Output mapping" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output"/>
+        <informationRequirement>
+            <requiredInput href="#Prediction"/>
+        </informationRequirement>
+    </decision>
+    <decision id="Prediction" name="ML model invocation">
+        <description>ML model output</description>
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.financial_eligibility.Input" collection="false" name="Input mapping"/>
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.financial_eligibility.Output" collection="false" name="ML model invocation"/>
+                <rule defaultRule="false" href="Prediction/Prediction.drl" kind="BusinessRule" name="Prediction"/>
+            </ruleset>
+            <properties xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <property name="ads.designer.predictionInvocation"><![CDATA[true]]></property>
+            </properties>
+        </extensionElements>
+        <variable id="prediction_ii" name="ML model invocation" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.financial_eligibility.Output"/>
+        <informationRequirement>
+            <requiredInput href="#input-mapping"/>
+        </informationRequirement>
+    </decision>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>
