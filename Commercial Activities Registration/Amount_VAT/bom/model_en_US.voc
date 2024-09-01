@@ -1,0 +1,14 @@
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT#concept.label = Amount_VAT
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.Amount_VAT(double,double,java.lang.String)#phrase.navigation = a new {Amount_VAT} where {0, VAT} {1, amount_VAT} {2, msg}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.VAT#phrase.action = set the VAT of {this} to {VAT}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.VAT#phrase.addition_setter = add {VAT} to the VAT of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.VAT#phrase.navigation = {VAT} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.VAT#phrase.subtraction_setter = subtract {VAT} from the VAT of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.amount_VAT#phrase.action = set the amount_VAT of {this} to {amount_VAT}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.amount_VAT#phrase.addition_setter = add {amount_VAT} to the amount_VAT of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.amount_VAT#phrase.navigation = {amount_VAT} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.amount_VAT#phrase.subtraction_setter = subtract {amount_VAT} from the amount_VAT of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.msg#phrase.action = set the msg of {this} to {msg}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT.msg#phrase.navigation = {msg} of {this}

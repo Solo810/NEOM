@@ -1,0 +1,141 @@
+{
+  "id" : "1",
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "CUSTOMER_SUMMARY_NUMBER_OF_ACCOUNTS",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_ANNUAL_INCOME",
+    "type" : "float64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_INTERNET_BANKING_INDICATOR",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_NUMBER_OF_DEPENDENT_CHILDREN",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_SUMMARY_TOTAL_AMOUNT_OF_DEPOSITS",
+    "type" : "float64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_FAMILY_SIZE",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_TENURE_IN_MONTHS",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EMPLOYMENT_STATUS_Employed",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EMPLOYMENT_STATUS_Homemaker",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EMPLOYMENT_STATUS_Retired",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EMPLOYMENT_STATUS_Selfemployed",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EMPLOYMENT_STATUS_Unemployed",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_MARITAL_STATUS_Divorced",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_MARITAL_STATUS_Married",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_MARITAL_STATUS_Single",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_MARKET_GROUP_Accumulating",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_MARKET_GROUP_Gifting",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_MARKET_GROUP_Spending",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_MARKET_GROUP_Starting",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_URBAN_CODE_City",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_URBAN_CODE_Rural",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_URBAN_CODE_Urban",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EDUCATION_LEVEL_College",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EDUCATION_LEVEL_High_School",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EDUCATION_LEVEL_PhD",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EDUCATION_LEVEL_Professional",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_EDUCATION_LEVEL_University",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_GENDER_Female",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_GENDER_Male",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_AGE_RANGE_23_to_30",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_AGE_RANGE_30_to_40",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_AGE_RANGE_40_to_55",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_AGE_RANGE_55_to_65",
+    "type" : "int64",
+    "nullable" : true
+  }, {
+    "name" : "CUSTOMER_AGE_RANGE_65_and_over",
+    "type" : "int64",
+    "nullable" : true
+  } ]
+}

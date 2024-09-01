@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>decisionModel</name>
+  <uuid>9a624aac-ecc7-4002-9859-5a789f2001ef</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="node_0" name="professional">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Boolean" collection="false" name="professional"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_0_ii" name="professional" typeRef="java.lang.Boolean"/>
+    </inputData>
+    <decision id="node_1" name="Eligibility for the Service">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="java.lang.Boolean" collection="false" name="professional"/>
+                <input bomType="java.lang.Double" collection="false" name="sharePercentage"/>
+                <input bomType="java.lang.Double" collection="false" name="years"/>
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result" collection="false" name="Eligibility for the Service"/>
+                <rule defaultRule="false" href="node_1/Get%20Eligibility.drl" kind="BusinessRule" name="Get Eligibility"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_1_ii" name="Eligibility for the Service" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_2"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_3"/>
+        </informationRequirement>
+    </decision>
+    <inputData id="node_2" name="sharePercentage">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="sharePercentage"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_2_ii" name="sharePercentage" typeRef="java.lang.Double"/>
+    </inputData>
+    <inputData id="node_3" name="years">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="years"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_3_ii" name="years" typeRef="java.lang.Double"/>
+    </inputData>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>decisionModel</name>
+  <uuid>7cf9769f-569c-41e3-93b8-9487091f05ba</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="node_0" name="ISIC_Number">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="ISIC_Number"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_0_ii" name="ISIC_Number" typeRef="java.lang.Double"/>
+    </inputData>
+    <decision id="node_1" name="Amount_VAT">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
+                <input bomType="java.lang.Double" collection="false" name="ISIC_Number"/>
+                <input bomType="java.lang.Double" collection="false" name="Number of Rooms"/>
+                <input bomType="java.lang.Double" collection="false" name="Number of Years"/>
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT" collection="false" name="Amount_VAT"/>
+                <rule defaultRule="false" href="node_1/Validate%20Number%20of%20Years.drl" kind="BusinessRule" name="Validate Number of Years"/>
+                <rule defaultRule="false" href="node_1/Amount_and_VAT.dmt" kind="DecisionTable" name="Amount_and_VAT"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_1_ii" name="Amount_VAT" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat.Amount_VAT"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_2"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_3"/>
+        </informationRequirement>
+    </decision>
+    <inputData id="node_2" name="Number of Rooms">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="Number of Rooms"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_2_ii" name="Number of Rooms" typeRef="java.lang.Double"/>
+    </inputData>
+    <inputData id="node_3" name="Number of Years">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="Number of Years"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_3_ii" name="Number of Years" typeRef="java.lang.Double"/>
+    </inputData>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>

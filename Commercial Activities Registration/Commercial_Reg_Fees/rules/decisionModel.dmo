@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>decisionModel</name>
+  <uuid>9af787f6-60bd-4d18-b3aa-db99b29a32be</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="node_0" name="Company_type">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type" collection="false" name="Company_type"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_0_ii" name="Company_type" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type"/>
+    </inputData>
+    <decision id="node_1" name="Get_Fees">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type" collection="false" name="Company_type"/>
+                <input bomType="java.lang.Double" collection="false" name="Number of Years"/>
+                <input bomType="java.lang.Boolean" collection="false" name="professional"/>
+                <input bomType="java.lang.Double" collection="false" name="sharePercentage"/>
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result" collection="false" name="Get_Fees"/>
+                <rule defaultRule="false" href="node_1/Get%20Eligibility.drl" kind="BusinessRule" name="Get Eligibility"/>
+                <rule defaultRule="false" href="node_1/Get%20Company%20Fees.dmt" kind="DecisionTable" name="Get Company Fees"/>
+                <rule defaultRule="false" href="node_1/Years%20is%20more%20than%20one.drl" kind="BusinessRule" name="Years is more than one"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_1_ii" name="Get_Fees" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_2"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_3"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_4"/>
+        </informationRequirement>
+        <knowledgeRequirement>
+            <requiredKnowledge href="#node_5"/>
+        </knowledgeRequirement>
+    </decision>
+    <inputData id="node_2" name="Number of Years">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="Number of Years"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_2_ii" name="Number of Years" typeRef="java.lang.Double"/>
+    </inputData>
+    <inputData id="node_3" name="professional">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Boolean" collection="false" name="professional"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_3_ii" name="professional" typeRef="java.lang.Boolean"/>
+    </inputData>
+    <inputData id="node_4" name="sharePercentage">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="sharePercentage"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_4_ii" name="sharePercentage" typeRef="java.lang.Double"/>
+    </inputData>
+    <businessKnowledgeModel id="node_5" name="Main_Service_Eligibility">
+        <extensionElements>
+            <properties xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <property name="ads.designer.bkKind"><![CDATA[decision]]></property>
+            </properties>
+        </extensionElements>
+        <variable name="Main_Service_Eligibility" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result"/>
+        <encapsulatedLogic typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result">
+            <formalParameter name="professional" typeRef="java.lang.Boolean"/>
+            <formalParameter name="sharePercentage" typeRef="java.lang.Double"/>
+            <formalParameter name="years" typeRef="java.lang.Double"/>
+            <context>
+                <contextEntry>
+                    <variable name="class"/>
+                    <literalExpression>
+                        <text>"ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.mian_service_eligibility.Main_Service_Eligibility"</text>
+                    </literalExpression>
+                </contextEntry>
+                <contextEntry>
+                    <variable name="method signature"/>
+                    <literalExpression>
+                        <text>"run(java.lang.Boolean,java.lang.Double,java.lang.Double)"</text>
+                    </literalExpression>
+                </contextEntry>
+            </context>
+        </encapsulatedLogic>
+    </businessKnowledgeModel>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>

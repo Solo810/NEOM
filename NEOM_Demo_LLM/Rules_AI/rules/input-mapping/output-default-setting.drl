@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>output-default-setting</name>
+  <uuid>6fe97e8a-7b66-426d-a7f0-9b63fc198950</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[set decision to a new ML model input where
+		the customer summary number of accounts is 3 , 
+		the customer annual income is 175000 , 
+		the customer internet banking indicator is 2 , 
+		the customer number of dependent children is 3 , 
+		the customer summary total amount of deposits is 500000 , 
+		the customer family size is 5 , 
+		the customer tenure in months is 1000 , 
+		the customer employment status employed is 1 , 
+		the customer employment status homemaker is 0 , 
+		the customer employment status retired is 1 , 
+		the customer employment status selfemployed is 0 , 
+		the customer employment status unemployed is 0 , 
+		the customer marital status divorced is 0 , 
+		the customer marital status married is 1 , 
+		the customer marital status single is 0 , 
+		the customer market group accumulating is 0 , 
+		the customer market group gifting is 0 , 
+		the customer market group spending is 1 , 
+		the customer market group starting is 0 , 
+		the customer urban code city is 123 , 
+		the customer urban code rural is <customer urban code rural> , 
+		the customer urban code urban is <customer urban code urban> , 
+		the customer education level college is <customer education level college> , 
+		the customer education level high school is <customer education level high school> , 
+		the customer education level phd is <customer education level phd> , 
+		the customer education level professional is <customer education level professional> , 
+		the customer education level university is <customer education level university> , 
+		the customer gender female is <customer gender female> , 
+		the customer gender male is <customer gender male> , 
+		the customer age range23 to30 is <customer age range23 to30> , 
+		the customer age range30 to40 is <customer age range30 to40> , 
+		the customer age range40 to55 is <customer age range40 to55> , 
+		the customer age range55 to65 is <customer age range55 to65> , 
+		the customer age range65 and over is <customer age range65 and over> ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

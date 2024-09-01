@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Invest_License_Renewal">
+  <name>Invest_License_Renewal</name>
+  <uuid>fe9040c7-ce78-4b6f-af12-a69dc699c292</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#b4d57952-6fd2-40b6-9746-5a48844585f1"/>
+  <targetRuleProject href="../../Invest_License_Renewal#61e7b714-873b-45b7-aba0-07be84134ca9"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Sleem_Invest_License_Renewal"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

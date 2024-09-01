@@ -1,0 +1,11 @@
+{
+  "id" : "ff84b085-5aa1-4f0d-952c-999956119b25",
+  "providerId" : "cp4admin/NEOM_Demo/WatsonX_LLM1725173267742",
+  "predictionParameters" : {
+    "predictionParamType" : "WML",
+    "modelId" : "49a08da8-b97e-4394-9810-046c121c6f7e",
+    "deploymentId" : "189b462c-d615-4e31-9abf-c8c529d3f88a",
+    "url" : "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/189b462c-d615-4e31-9abf-c8c529d3f88a/predictions"
+  },
+  "version" : "V1"
+}

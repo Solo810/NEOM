@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Chamber_of_Commerce_Fees">
+  <name>Chamber_of_Commerce_Fees</name>
+  <uuid>f3a905ed-06eb-4240-9be0-3383360d7e98</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#435900cc-12c6-438d-94ca-133e9c276275"/>
+  <targetRuleProject href="../../Chamber_of_Commerce_Fees#f8ecfa66-3862-4e6e-a85a-cc5ccf415edc"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Sleem_Chamber_of_Commerce_Fees"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

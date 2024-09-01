@@ -1,0 +1,30 @@
+
+package ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.amount_vat;
+
+
+class Amount_VAT
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Amount_VAT"
+        #de.generated
+{
+    double VAT
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "VAT"
+                #update;
+    double amount_VAT
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "amount_VAT"
+                #update;
+    string msg
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "msg"
+                #update;
+    Amount_VAT(double VAT, double amount_VAT, string msg)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Amount_VAT()
+                #dataio.default;
+}
+

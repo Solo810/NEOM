@@ -1,0 +1,31 @@
+{
+  "metadata" : {
+    "id" : "189b462c-d615-4e31-9abf-c8c529d3f88a",
+    "name" : "offer_affinity_RETIREMENTPLAN_model_deployment",
+    "modified_at" : "2024-05-23T12:22:20.239Z",
+    "created_at" : "2024-05-23T12:22:20.239Z",
+    "owner" : "IBMid-550001MGXD",
+    "space_id" : "dd418181-41ef-4e01-a466-b9c1c6b9c95c",
+    "tags" : [ "offer_affinity_RETIREMENTPLAN_deployment_tag" ]
+  },
+  "entity" : {
+    "name" : "offer_affinity_RETIREMENTPLAN_model_deployment",
+    "space_id" : "dd418181-41ef-4e01-a466-b9c1c6b9c95c",
+    "custom" : { },
+    "online" : { },
+    "status" : {
+      "state" : "ready",
+      "online_url" : {
+        "url" : "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/189b462c-d615-4e31-9abf-c8c529d3f88a/predictions"
+      },
+      "serving_urls" : [ "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/189b462c-d615-4e31-9abf-c8c529d3f88a/predictions", "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/offeraffinityretirementplanmodzgbzu1/predictions" ]
+    },
+    "asset" : {
+      "id" : "49a08da8-b97e-4394-9810-046c121c6f7e"
+    }
+  },
+  "name" : "offer_affinity_RETIREMENTPLAN_model_deployment",
+  "status" : "ready",
+  "deployedAt" : "2024-05-23T12:22:20.239Z",
+  "url" : "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/189b462c-d615-4e31-9abf-c8c529d3f88a/predictions"
+}

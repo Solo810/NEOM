@@ -1,0 +1,26 @@
+
+package ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result;
+
+
+class Decision_result
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Decision_result"
+        #de.generated
+{
+    double amount
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "amount"
+                #update;
+    string msg
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "msg"
+                #update;
+    Decision_result(double amount, string msg)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Decision_result()
+                #dataio.default;
+}
+

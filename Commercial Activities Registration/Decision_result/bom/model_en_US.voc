@@ -1,0 +1,10 @@
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result#concept.label = Decision_result
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result.Decision_result(double,java.lang.String)#phrase.navigation = a new {Decision_result} where {0, amount} {1, msg}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result.amount#phrase.action = set the amount of {this} to {amount}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result.amount#phrase.addition_setter = add {amount} to the amount of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result.amount#phrase.navigation = {amount} of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result.amount#phrase.subtraction_setter = subtract {amount} from the amount of {this}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result.msg#phrase.action = set the msg of {this} to {msg}
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result.msg#phrase.navigation = {msg} of {this}

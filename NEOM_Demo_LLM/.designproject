@@ -1,0 +1,10 @@
+{
+  "description" : "",
+  "groupId" : "cp4admin.neom_demo.neom_demo_llm",
+  "locale" : "en_US",
+  "properties" : {
+    "refactoringEnabled" : false,
+    "tags" : [ ]
+  },
+  "extraProperties" : { }
+}

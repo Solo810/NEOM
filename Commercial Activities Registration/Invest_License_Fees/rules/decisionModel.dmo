@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>decisionModel</name>
+  <uuid>32f838d2-cb79-42cd-8469-1d6a58a618dc</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="node_0" name="sharePercentage">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="sharePercentage"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_0_ii" name="sharePercentage" typeRef="java.lang.Double"/>
+    </inputData>
+    <decision id="node_1" name="Get Final Cost">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="java.lang.Double" collection="false" name="sharePercentage"/>
+                <input bomType="java.lang.Double" collection="false" name="Number of Years"/>
+                <input bomType="java.lang.Boolean" collection="false" name="professional"/>
+                <input bomType="java.lang.Boolean" collection="false" name="entrepreneur"/>
+                <input bomType="java.lang.Boolean" collection="false" name="HQ in KSA"/>
+                <input bomType="java.lang.String" collection="false" name="classification"/>
+                <output bomType="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result" collection="false" name="Get Final Cost"/>
+                <rule defaultRule="false" href="node_1/Get%20Eligibility.drl" kind="BusinessRule" name="Get Eligibility"/>
+                <rule defaultRule="false" href="node_1/Get%20Company%20Entrepreneur.drl" kind="BusinessRule" name="Get Company Entrepreneur"/>
+                <rule defaultRule="false" href="node_1/Get%20Company%20HQ%20Cost.dmt" kind="DecisionTable" name="Get Company HQ Cost"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_1_ii" name="Get Final Cost" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_2"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_3"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_4"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_5"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_6"/>
+        </informationRequirement>
+        <knowledgeRequirement>
+            <requiredKnowledge href="#node_7"/>
+        </knowledgeRequirement>
+    </decision>
+    <inputData id="node_2" name="Number of Years">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="Number of Years"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_2_ii" name="Number of Years" typeRef="java.lang.Double"/>
+    </inputData>
+    <inputData id="node_3" name="professional">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Boolean" collection="false" name="professional"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_3_ii" name="professional" typeRef="java.lang.Boolean"/>
+    </inputData>
+    <inputData id="node_4" name="entrepreneur">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Boolean" collection="false" name="entrepreneur"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_4_ii" name="entrepreneur" typeRef="java.lang.Boolean"/>
+    </inputData>
+    <inputData id="node_5" name="HQ in KSA">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Boolean" collection="false" name="HQ in KSA"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_5_ii" name="HQ in KSA" typeRef="java.lang.Boolean"/>
+    </inputData>
+    <inputData id="node_6" name="classification">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.String" collection="false" name="classification"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_6_ii" name="classification" typeRef="java.lang.String"/>
+    </inputData>
+    <businessKnowledgeModel id="node_7" name="Main_Service_Eligibility">
+        <extensionElements>
+            <properties xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <property name="ads.designer.bkKind"><![CDATA[decision]]></property>
+            </properties>
+        </extensionElements>
+        <variable name="Main_Service_Eligibility" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result"/>
+        <encapsulatedLogic typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.decision_result.Decision_result">
+            <formalParameter name="professional" typeRef="java.lang.Boolean"/>
+            <formalParameter name="sharePercentage" typeRef="java.lang.Double"/>
+            <formalParameter name="years" typeRef="java.lang.Double"/>
+            <context>
+                <contextEntry>
+                    <variable name="class"/>
+                    <literalExpression>
+                        <text>"ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.mian_service_eligibility.Main_Service_Eligibility"</text>
+                    </literalExpression>
+                </contextEntry>
+                <contextEntry>
+                    <variable name="method signature"/>
+                    <literalExpression>
+                        <text>"run(java.lang.Boolean,java.lang.Double,java.lang.Double)"</text>
+                    </literalExpression>
+                </contextEntry>
+            </context>
+        </encapsulatedLogic>
+    </businessKnowledgeModel>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>

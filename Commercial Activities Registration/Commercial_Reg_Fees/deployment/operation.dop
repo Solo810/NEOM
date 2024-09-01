@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Commercial_Reg_Fees">
+  <name>Commercial_Reg_Fees</name>
+  <uuid>b5ca4ad0-2f0a-469a-ae4f-5a419b7c5e18</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#9af787f6-60bd-4d18-b3aa-db99b29a32be"/>
+  <targetRuleProject href="../../Commercial_Reg_Fees#8f7e416e-1fc9-48dc-ba12-5a2185e7fc07"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Sleem_Commercial_Reg_Fees"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>

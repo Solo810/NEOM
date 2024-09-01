@@ -1,0 +1,102 @@
+
+package ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade;
+
+
+class Company_Grade
+        extends java.lang.Enum
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Company_Grade"
+        #de.generated
+{
+    domain {static الفئة1, static الفئة2, static الفئة3, static الفئة4, static الفئة5, static الفئة6}
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade الفئة1
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "الفئة1";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade الفئة2
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "الفئة2";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade الفئة3
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "الفئة3";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade الفئة4
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "الفئة4";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade الفئة5
+                property ads.attributeId "5"
+                property com.fasterxml.jackson.annotation.JsonProperty "الفئة5";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade الفئة6
+                property ads.attributeId "6"
+                property com.fasterxml.jackson.annotation.JsonProperty "الفئة6";
+}
+
+class Company_type
+        extends java.lang.Enum
+        property ads.typeId "2"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Company_type"
+        #de.generated
+{
+    domain 
+    {
+        static مؤسسةفردية,
+        static جميعالشركات,
+        static جميعالمؤسسات,
+        static جميعالمنشآت,
+        static شركةتضامنية,
+        static شركةتوصيةبسيطة,
+        static شركةذاتمسؤوليةمحدودة,
+        static شركةمساهمةغيرمدرجة,
+        static شركةمساهمةمبسطة,
+        static شركةمساهمةمدرجةفيالسوقالمالية,
+        static شركةمهنيةتضامنية,
+        static شركةمهنيةتوصيةبسيطة,
+        static شركةمهنيةذاتمسؤوليةمحدودة,
+        static شركةمهنيةمساهمةغيرمدرجة,
+        static شركةمهنيةمساهمةمبسطة
+    }
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type جميعالشركات
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "جميعالشركات";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type جميعالمؤسسات
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "جميعالمؤسسات";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type جميعالمنشآت
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "جميعالمنشآت";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةتضامنية
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةتضامنية";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةتوصيةبسيطة
+                property ads.attributeId "5"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةتوصيةبسيطة";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةذاتمسؤوليةمحدودة
+                property ads.attributeId "6"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةذاتمسؤوليةمحدودة";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةمساهمةغيرمدرجة
+                property ads.attributeId "7"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةمساهمةغيرمدرجة";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةمساهمةمبسطة
+                property ads.attributeId "8"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةمساهمةمبسطة";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةمساهمةمدرجةفيالسوقالمالية
+                property ads.attributeId "9"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةمساهمةمدرجةفيالسوقالمالية";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةمهنيةتضامنية
+                property ads.attributeId "10"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةمهنيةتضامنية";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةمهنيةتوصيةبسيطة
+                property ads.attributeId "11"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةمهنيةتوصيةبسيطة";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةمهنيةذاتمسؤوليةمحدودة
+                property ads.attributeId "12"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةمهنيةذاتمسؤوليةمحدودة";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةمهنيةمساهمةغيرمدرجة
+                property ads.attributeId "13"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةمهنيةمساهمةغيرمدرجة";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type شركةمهنيةمساهمةمبسطة
+                property ads.attributeId "14"
+                property com.fasterxml.jackson.annotation.JsonProperty "شركةمهنيةمساهمةمبسطة";
+    static final readonly ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type مؤسسةفردية
+                property ads.attributeId "15"
+                property com.fasterxml.jackson.annotation.JsonProperty "مؤسسةفردية";
+}
+

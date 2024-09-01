@@ -1,0 +1,27 @@
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade#concept.label = Company_Grade
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade.الفئة1#instance.label = الفئة 1
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade.الفئة2#instance.label = الفئة 2
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade.الفئة3#instance.label = الفئة 3
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade.الفئة4#instance.label = الفئة 4
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade.الفئة5#instance.label = الفئة 5
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_Grade.الفئة6#instance.label = الفئة 6
+
+# ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type#concept.label = Company_type
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.جميعالشركات#instance.label = جميع الشركات
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.جميعالمؤسسات#instance.label = جميع المؤسسات
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.جميعالمنشآت#instance.label = جميع المنشآت
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةتضامنية#instance.label = شركة تضامنية
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةتوصيةبسيطة#instance.label = شركة توصية بسيطة
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةذاتمسؤوليةمحدودة#instance.label = شركة ذات مسؤولية محدودة
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةمساهمةغيرمدرجة#instance.label = شركة مساهمة غير مدرجة
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةمساهمةمبسطة#instance.label = شركة مساهمة مبسطة
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةمساهمةمدرجةفيالسوقالمالية#instance.label = شركة مساهمة مدرجة في السوق المالية
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةمهنيةتضامنية#instance.label = شركة مهنية تضامنية
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةمهنيةتوصيةبسيطة#instance.label = شركة مهنية توصية بسيطة
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةمهنيةذاتمسؤوليةمحدودة#instance.label = شركة مهنية ذات مسؤولية محدودة
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةمهنيةمساهمةغيرمدرجة#instance.label = شركة مهنية مساهمة غير مدرجة
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.شركةمهنيةمساهمةمبسطة#instance.label = شركة مهنية مساهمة مبسطة
+ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.company_grade.Company_type.مؤسسةفردية#instance.label = مؤسسة فردية

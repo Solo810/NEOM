@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RuleProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" xmlns:ilog.rules.studio.model.bom="http://ilog.rules.studio/model/bom.ecore" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore" xmlns:ilog.rules.studio.model.xom="http://ilog.rules.studio/model/xom.ecore" buildMode="DecisionEngine" isADecisionService="true" projectKind="DecisionModel" projectVersion="2.0.0">
+  <name>Invest_License_Fees</name>
+  <uuid>dce3cd82-10aa-478d-809d-c972d6b0e97f</uuid>
+  <outputLocation>output</outputLocation>
+  <categories>any</categories>
+  <paths xsi:type="ilog.rules.studio.model.xom:XOMPath" pathID="XOM">
+    <entries xsi:type="ilog.rules.studio.model.xom:LibraryXOMPathEntry" name="org.eclipse.jdt.launching.JRE_CONTAINER" url="file:org.eclipse.jdt.launching.JRE_CONTAINER" kind="LIBRARY"/>
+  </paths>
+  <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
+    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:company_Grade#LATEST-SNAPSHOT" packageId="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:company_Grade" version="LATEST-SNAPSHOT"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:main_Service_Eligibility#LATEST-SNAPSHOT" packageId="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:main_Service_Eligibility" version="LATEST-SNAPSHOT"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:decision_Result#LATEST-SNAPSHOT" packageId="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:decision_Result" version="LATEST-SNAPSHOT"/>
+  </paths>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">
+    <name>rules</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:BMDFolder">
+    <name>bmd</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:FunctionFolder">
+    <name>functions</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.bom:BOMFolder">
+    <name>bom</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.query:QueryFolder">
+    <name>queries</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:ResourceFolder">
+    <name>resources</name>
+  </modelFolders>
+  <modelFolders xsi:type="com.ibm.rules.studio.model.decisionservice:OperationFolder">
+    <name>deployment</name>
+  </modelFolders>
+  <documentation><![CDATA[تختلف تكلفة ترخيص الاستثمار في حالتين:
+يتم تخفيض تكلفة ترخيص الاستثمار لرائد الأعمال المتعاقد مع جامعة أو حاضنة أعمال لتصبح تكلفة الإصدار في السنة الأولى 2,000 ر.س. والتجديد في السنة الثانية والثالثة 2,000 ر.س. والتجديد في السنة الرابعة والخامسة 12,000 ر.س. حتى تصل إلى 62,000 ر.س. ابتداءً من السنة السادسة
+يتم تخفيض تكلفة ترخيص الاستثمار إن كانت المنشأة تعمل بصفتها مقراً إقليمياً في المملكة ومصنفة فضية أو ذهبية أو بلاتينية، بحيث يكون الإصدار والتجديد مجاني للفئات الذهبية والبلاتينية، وتكون تكلفة الإصدار في السنة الأولى 12,000 ر.س. والتجديد سنوياً 2,000 ر.س. للفئة الفضية
+The cost of the investment license varies in two cases:
+1- The cost of the investment license for an entrepreneur contracted with a university or business incubator is reduced to SAR 2,000 for the first year, SAR 2,000 for renewal in the second and third years, and SAR 12,000 for renewal in the fourth and fifth years, until it reaches SAR 62,000 starting from the sixth year
+2- The cost of the investment license is reduced if the facility operates as a regional headquarters in the Kingdom and is classified as silver, gold or platinum, so that issuance and renewal are free for the gold and platinum categories, and the cost of issuance in the first year is SAR 12,000 and annual renewal is SAR 2,000 for the silver category]]></documentation>
+</ilog.rules.studio.model.base:RuleProject>
