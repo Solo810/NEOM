@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Get_Eligibility_Using_AI">
+  <name>Get_Eligibility_Using_AI</name>
+  <uuid>95317fa6-122e-4094-97ba-9c7ddc111b09</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#84623ef7-4114-4554-804b-9c18cbc333e7"/>
+  <targetRuleProject href="../../Get_Eligibility_Using_AI#59be664e-d4e9-4f5d-9742-bb7105a6ca4f"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

@@ -11,6 +11,8 @@
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:decision_Result#LATEST-SNAPSHOT" packageId="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:decision_Result" version="LATEST-SNAPSHOT"/>
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:main_Service_Eligibility#LATEST-SNAPSHOT" packageId="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:main_Service_Eligibility" version="LATEST-SNAPSHOT"/>
     <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:company_Grade#LATEST-SNAPSHOT" packageId="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:company_Grade" version="LATEST-SNAPSHOT"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:financial_Eligibility#LATEST-SNAPSHOT" packageId="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:financial_Eligibility" version="LATEST-SNAPSHOT"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:DecisionLibraryBOMEntry" name="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:ML_Custom_Output#LATEST-SNAPSHOT" packageId="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:ML_Custom_Output" version="LATEST-SNAPSHOT"/>
   </paths>
   <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">
     <name>rules</name>

@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-    <artifactId>main_Service_Eligibility</artifactId>
+    <artifactId>get_Eligibility_Using_AI</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,10 +26,10 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Main_Service_Eligibility</name>
+                            <name>Get_Eligibility_Using_AI</name>
                         </deployment>
                     </deployments>
-                <packageName>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.mian_service_eligibility</packageName>
+                <packageName>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.get_eligibility_using_ai</packageName>
                 </configuration>
             </plugin>
         </plugins>
@@ -38,17 +38,12 @@
 <dependencies>
         <dependency>
             <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>decision_Result</artifactId>
+            <artifactId>ML_Custom_Output</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
             <artifactId>financial_Eligibility</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration</groupId>
-            <artifactId>ML_Custom_Output</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>decisionModel</name>
+  <uuid>84623ef7-4114-4554-804b-9c18cbc333e7</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <decision id="node_1" name="Decision">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <output bomType="java.lang.String" collection="false" name="Decision"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_1_ii" name="Decision" typeRef="java.lang.String"/>
+        <knowledgeRequirement>
+            <requiredKnowledge href="#node_2"/>
+        </knowledgeRequirement>
+    </decision>
+    <businessKnowledgeModel id="node_2" name="Financial_Eligibility">
+        <extensionElements>
+            <properties xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <property name="ads.designer.bkKind"><![CDATA[prediction]]></property>
+            </properties>
+        </extensionElements>
+        <variable name="Financial_Eligibility" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output"/>
+        <encapsulatedLogic typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output">
+            <formalParameter name="investorData" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData"/>
+            <context>
+                <contextEntry>
+                    <variable name="class"/>
+                    <literalExpression>
+                        <text>"ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.financial_eligibility.Financial_Eligibility"</text>
+                    </literalExpression>
+                </contextEntry>
+                <contextEntry>
+                    <variable name="method signature"/>
+                    <literalExpression>
+                        <text>"run(ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData)"</text>
+                    </literalExpression>
+                </contextEntry>
+            </context>
+        </encapsulatedLogic>
+    </businessKnowledgeModel>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>

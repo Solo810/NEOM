@@ -71,6 +71,7 @@
         <module>Company_Grade</module>
         <module>Decision_result</module>
         <module>Financial_Eligibility</module>
+        <module>Get_Eligibility_Using_AI</module>
         <module>Invest_License_Fees</module>
         <module>Invest_License_Renewal</module>
         <module>InvestorData</module>

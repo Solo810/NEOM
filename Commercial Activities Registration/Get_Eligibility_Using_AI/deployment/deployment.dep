@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration:get_Eligibility_Using_AI" ruleAppVersion="LATEST-SNAPSHOT" packageName="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.get_eligibility_using_ai" managingXom="true">
+  <name>Get_Eligibility_Using_AI</name>
+  <uuid>9b8aafd1-73f0-45b7-b3c0-d11ceaa58093</uuid>
+  <locales>en_US</locales>
+  <operations operationName="operation">
+    <operation href="operation.dop#95317fa6-122e-4094-97ba-9c7ddc111b09"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.0]]></value>
+    </properties>
+  </operations>
+  <versionPolicies label="Increment minor version numbers" ruleset="INCREMENT_MINOR" default="true" recurrent="true">
+    <description><![CDATA[Updates the minor version for each ruleset. Makes the new version available but retains previous versions.]]></description>
+  </versionPolicies>
+  <versionPolicies label="Use the base version numbers" recurrent="true">
+    <description><![CDATA[Uses the numbers provided in the deployment configuration. Replaces the latest version of each ruleset with this release. Used for hot fixes or development.]]></description>
+  </versionPolicies>
+  <versionPolicies label="The user can define the version numbers" ruleset="MANUAL" recurrent="true">
+    <description><![CDATA[Allows you to enter your own version numbers. Used for hot fixes or updates to an earlier release.]]></description>
+  </versionPolicies>
+</com.ibm.rules.studio.model.decisionservice:Deployment>

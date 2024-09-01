@@ -44,6 +44,9 @@
         <knowledgeRequirement>
             <requiredKnowledge href="#node_5"/>
         </knowledgeRequirement>
+        <knowledgeRequirement>
+            <requiredKnowledge href="#node_6"/>
+        </knowledgeRequirement>
     </decision>
     <inputData id="node_2" name="Number of Years">
         <extensionElements>
@@ -91,6 +94,31 @@
                     <variable name="method signature"/>
                     <literalExpression>
                         <text>"run(java.lang.Boolean,java.lang.Double,java.lang.Double)"</text>
+                    </literalExpression>
+                </contextEntry>
+            </context>
+        </encapsulatedLogic>
+    </businessKnowledgeModel>
+    <businessKnowledgeModel id="node_6" name="Financial_Eligibility">
+        <extensionElements>
+            <properties xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <property name="ads.designer.bkKind"><![CDATA[prediction]]></property>
+            </properties>
+        </extensionElements>
+        <variable name="Financial_Eligibility" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output"/>
+        <encapsulatedLogic typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.ml_custom_output.ML_Custom_Output">
+            <formalParameter name="investorData" typeRef="ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData"/>
+            <context>
+                <contextEntry>
+                    <variable name="class"/>
+                    <literalExpression>
+                        <text>"ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.financial_eligibility.Financial_Eligibility"</text>
+                    </literalExpression>
+                </contextEntry>
+                <contextEntry>
+                    <variable name="method signature"/>
+                    <literalExpression>
+                        <text>"run(ahmed.sleem_ibm.com.sleem_sdaia_codb.commercial_activities_registration.investordata.InvestorData)"</text>
                     </literalExpression>
                 </contextEntry>
             </context>
